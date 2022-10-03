@@ -1,0 +1,20 @@
+h2{
+    color: red;
+}
+
+.title{
+    background-color: orange;
+}
+
+
+.small-title{
+    font-size: 13px;
+}
+
+.green-title{
+    color: darkgreen;
+}
+
+.underline-text{
+    text-decoration: underline;
+}
