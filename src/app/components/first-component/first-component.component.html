@@ -1,9 +1,11 @@
-<h2 class="title">Meu primeiro Component</h2>
-<h3>Nome: {{ name }}</h3>
-<h4>Age: {{ age }}</h4>
-<p>Hobbie: {{ hobbies[0] }}</p>
-<p>Carro: {{car.year}} {{car.plate}}</p>
+<div class="aula">
+    <h2 class="title">Meu primeiro Component</h2>
+    <h3>Nome: {{ name }}</h3>
+    <h4>Age: {{ age }}</h4>
+    <p>Hobbie: {{ hobbies[0] }}</p>
+    <p>Carro: {{car.year}} {{car.plate}}</p>
 
-<h3 [ngStyle]="{'font-size': size + 'px', 'font-family': 'Arial', 'color': color}" >Testando diretivas de estilos /ngStyle</h3>
-<h3 [ngClass]="classes">Testando diretivas de classes</h3>
-<h3 [ngClass]="underline">Testando diretivas de classes</h3>
+    <h3 [ngStyle]="{'font-size': size + 'px', 'font-family': 'Arial', 'color': color}" >Testando diretivas de estilos /ngStyle</h3>
+    <h3 [ngClass]="classes">Testando diretivas de classes</h3>
+    <h3 [ngClass]="underline">Testando diretivas de classes</h3>
+</div>
