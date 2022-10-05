@@ -5,13 +5,19 @@ import { AppComponent } from './app.component';
 import { FirstComponentComponent } from './components/first-component/first-component.component';
 import { ParentDataComponent } from './components/parent-data/parent-data.component';
 import { RenderCondicionalComponent } from './components/render-condicional/render-condicional.component';
+import { EventosComponent } from './components/eventos/eventos.component';
+import { ChildChangeNumberComponent } from './components/child-change-number/child-change-number.component';
+import { CorrectChildChangeNumberComponent } from './components/correct-child-change-number/correct-child-change-number.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FirstComponentComponent,
     ParentDataComponent,
-    RenderCondicionalComponent
+    RenderCondicionalComponent,
+    EventosComponent,
+    ChildChangeNumberComponent,
+    CorrectChildChangeNumberComponent
   ],
   imports: [
     BrowserModule

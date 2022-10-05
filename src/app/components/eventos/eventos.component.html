@@ -1,0 +1,7 @@
+<div class="aula">
+    <p *ngIf="showMessage">Mensagem Exibida</p>
+    <button (click)="toogleShowMessage()">Click Me</button>
+    <h1>O numero é {{ numero }} </h1>
+    <app-child-change-number [onChangeNumber]="onChangeNumber"></app-child-change-number>
+    <app-correct-child-change-number (onChangeNumber)="onChangeNumber()"></app-correct-child-change-number>
+</div>
