@@ -8,6 +8,7 @@ import { RenderCondicionalComponent } from './components/render-condicional/rend
 import { EventosComponent } from './components/eventos/eventos.component';
 import { ChildChangeNumberComponent } from './components/child-change-number/child-change-number.component';
 import { CorrectChildChangeNumberComponent } from './components/correct-child-change-number/correct-child-change-number.component';
+import { ListRenderComponent } from './components/list-render/list-render.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CorrectChildChangeNumberComponent } from './components/correct-child-ch
     RenderCondicionalComponent,
     EventosComponent,
     ChildChangeNumberComponent,
-    CorrectChildChangeNumberComponent
+    CorrectChildChangeNumberComponent,
+    ListRenderComponent
   ],
   imports: [
     BrowserModule
