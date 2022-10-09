@@ -1,0 +1,20 @@
+<div class="aula">
+    <h2>Two way data binding</h2>
+    <form action="">
+        <input
+            [(ngModel)]="name"
+            name="name"
+            placeholder="Digite um nome" 
+            type="password"
+
+        >
+        <input
+            [(ngModel)]="check"
+            name="check"
+            type="checkbox"
+        >
+    </form>
+    <div *ngIf="name != '' && check === true ">
+        <p> {{name}} </p>
+    </div>
+</div>
